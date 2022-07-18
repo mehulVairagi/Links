@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.903), rgba(0, 0, 0, 0.771)),url(bg.jpg);
+    height: 120vh;
+    background-size: 100%;
+}
+#heading{
+    color: rgba(255, 255, 255, 0.802);
+    text-align: center;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+}
+#head{
+    font-family: 'Ubuntu' , sans-serif;
+}
+#subhead{
+    font-family: 'Nunito', sans-serif;
+}
+hr{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+}
+#line{
+    display: flex;
+    justify-content:center;
+}
+.button{
+    background-color: #605a5ac3;
+    height: 40px;
+    border-radius: 10px;
+    width: 300px;
+}
+#socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgba(225, 225, 225, 0.859);
+}
+.mid{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+#spotify{
+    display: flex;
+    justify-content: center;
+}
+#last{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    height: 150px;
+    border-radius: 1500px 1500px 1500px 1500px;
+    margin-top: 5%;
+    border: 2px inset #000000;
+}
+@media (min-width:320px) and (max-width:450px){
+    body{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    img{
+        height: 150px;
+        border-radius: 1500px 1500px 1500px 1500px;
+        margin-top: 5%;
+        border: 2px inset #000000;
+    }
+    #head{
+        font-size: 25px;
+        text-decoration: underline;
+        margin-bottom: 7px;
+    }
+    #subhead{
+        font-size: 15px;
+        color: #ffffff94;
+    }
+    hr{
+        width: 300px;
+    }
+    .mid{
+        font-size: 15px;
+    }
+    i{
+        font-size: 20px;
+    }
+    #web{
+        font-weight: 100;
+    }
+    iframe{
+        margin-top: 10%;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20%;
+    }
+    #last{
+        font-size: 17px;
+        margin-bottom: 5%;
+    }
+}
